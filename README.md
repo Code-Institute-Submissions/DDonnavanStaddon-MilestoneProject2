@@ -1,11 +1,14 @@
 # MilestoneProject2
 ---
-## Lists
-* a list
-* a list
-* a list
-* a list
-* a list
+### Top 5 NBA Players
+
+## UX
+
+* To help a person learn about NBA
+* If someone wants to find out who is a top NBA Player live
+* Maybe a person wants to place a bet this website can help them make a good decision
+* it has live update
+* you will be able to buy NBA Tickets
 ---
 ## Links
 
