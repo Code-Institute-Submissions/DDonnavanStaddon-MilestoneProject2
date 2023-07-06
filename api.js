@@ -1,4 +1,4 @@
-//const baseURL = "https://ci-swapi.herokuapp.com/api/";
+//const baseURL = "https://nba-stats-db.herokuapp.com/api/playerdata/name/";
 
 function getData(url, cb) {
     var xhr = new XMLHttpRequest();

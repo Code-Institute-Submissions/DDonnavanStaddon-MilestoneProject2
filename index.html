@@ -4,17 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AJAX Test</title>
-    <script src="main.js"></script>
+    <title>Top 5 NBA Players 2023 Season Stats by Name</title>
+
+    <script src="api.js"></script>
 </head>
 
 <body>
-    <button onclick="writeToDocument('https://ci-swapi.herokuapp.com/api/people')">People</button>
-    <button onclick="writeToDocument('https://ci-swapi.herokuapp.com/api/planets')">Planets</button>
-    <button onclick="writeToDocument('https://ci-swapi.herokuapp.com/api/species')">Species</button>
-    <button onclick="writeToDocument('https://ci-swapi.herokuapp.com/api/starships')">Starships</button>
-    <button onclick="writeToDocument('https://ci-swapi.herokuapp.com/api/vehicles')">Vehicles</button>
-    <button onclick="writeToDocument('https://ci-swapi.herokuapp.com/api/films')">Films</button>
+    <button onclick="writeToDocument('https://nba-stats-db.herokuapp.com/api/playerdata/name/Jayson Tatum')">Jayson
+        Tatum</button>
+    <button onclick="writeToDocument('https://nba-stats-db.herokuapp.com/api/playerdata/name/Nikola Jokić')">Nikola
+        Jokic</button>
+    <button onclick="writeToDocument('https://nba-stats-db.herokuapp.com/api/playerdata/name/Stephen Curry')">Stephen
+        Curry</button>
+    <button onclick="writeToDocument('https://nba-stats-db.herokuapp.com/api/playerdata/name/Joel Embiid')">Joel
+        Embiid</button>
+    <button
+        onclick="writeToDocument('https://nba-stats-db.herokuapp.com/api/playerdata/name/Giannis Antetokounmpo')">Giannis
+        Antetokounmpo</button>
     <div id="data"></div>
 </body>
 
